@@ -1,0 +1,17 @@
+{
+  "name": "graphQLAPI",
+  "version": "1.0.0",
+  "description": "A simple graphql API",
+  "main": "index.mjs",
+  "author": "Ai",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.mjs"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "colors": "^1.4.0",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
